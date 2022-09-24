@@ -71,8 +71,8 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  /* margin-left: 215px;
-  margin-right: 215px; */
+  margin-left: 215px;
+  
 }
 
 .header-contact {
