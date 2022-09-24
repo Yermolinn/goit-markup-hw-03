@@ -328,8 +328,11 @@ body {
 /* ------------------------------------------------Герой------------------------------------------------ */
 
 .hero {
-  display: inline-block;
   background-color: var(--footer-bgc-collor);
+}
+
+.hero-container {
+  display: inline-block;
   max-width: 1600px;
   height: 600px;
 }
@@ -433,9 +436,12 @@ body {
 
 /* ------------------------------------------------Команда------------------------------------------------ */
 .team-container {
-  max-width: 1600px;
-  height: 648px;
   background-color: var(--sec-bgc-color);
+}
+
+.team-list-container {
+    max-width: 1600px;
+      height: 648px;
 }
 
 .team-section-title {
