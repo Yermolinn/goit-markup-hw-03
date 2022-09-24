@@ -68,19 +68,15 @@ body {
 
 /* ------------------------------------------------Шапка------------------------------------------------ */
 
-.header-conteiner {
-  max-width: 1170px;
-  margin: 0 auto;
+.header-container {
   display: flex;
   align-items: center;
+  /* margin-left: 215px;
+  margin-right: 215px; */
 }
 
 .header-contact {
-  display: inline-block;
   margin-left: 344px;
-}
-.header-contact-item {
-  display: flex;
 }
 
 .header-contact-item:last-child {
@@ -90,9 +86,6 @@ body {
 .header-contact-list {
   list-style: none;
   margin-left: auto;
-}
-
-.header-contact-list {
   display: flex;
 }
 
@@ -150,7 +143,7 @@ body {
 }
 
 .site-nav .item {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 .site-nav .link {
@@ -440,8 +433,8 @@ body {
 }
 
 .team-list-container {
-    max-width: 1600px;
-      height: 648px;
+  max-width: 1600px;
+  height: 648px;
 }
 
 .team-section-title {
