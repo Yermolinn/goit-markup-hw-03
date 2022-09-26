@@ -109,6 +109,9 @@ button {
 }
 
 /* ------------------------------------------------Шапка------------------------------------------------ */
+.page-header {
+border-bottom: 1px solid #eeeeee;
+}
 
 .header-container {
   display: flex;
@@ -207,12 +210,14 @@ button {
   background-color: var(--footer-bgc-collor);
 }
 
-.footer-container {
+/* .footer-container {
   margin-left: 215px;
   padding-top: 60px;
   padding-bottom: 60px;
+} */
+.footer-list {
+  margin-top: 20px;
 }
-
 .footer-list a {
   color: var(--secondary-text-collor);
   text-decoration: none;
@@ -243,6 +248,32 @@ button {
 
 .footer-list > li:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-logo {
+  margin-top: 60px;
+  
+
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  color: #2196f3;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--accent-text-collor);
+}
+
+.wht {
+  color: var(--white-text-collor);
+}
+
+.blck {
+  color: var(--black-text-collor);
 }
 
 /* ------------------------------------------------Кнопки------------------------------------------------ */
@@ -279,7 +310,7 @@ button {
 }
 
 .btn-portfolio {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   align-self: center;
@@ -345,7 +376,7 @@ button {
 
 .page-hero {
   background-color: var(--footer-bgc-collor);
-  padding: 200px;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -358,7 +389,7 @@ button {
   text-transform: uppercase;
 
   color: var(--white-text-collor);
-  width: 969px;
+  width: 696px;
   margin: 0 auto;
 }
 
@@ -399,6 +430,9 @@ button {
 }
 
 /* --------------------------------------------Чим-займаємося-------------------------------------------- */
+.page-production {
+  padding-top: 0;
+}
 
 .production > h2 {
   margin-bottom: 50px;
@@ -428,7 +462,7 @@ button {
 }
 
 .team-section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team {
@@ -444,7 +478,7 @@ button {
 }
 
 .team-list li {
-  background-color: white;
+  background-color: var(--sec-bgc-color);
 }
 
 .team-list > .item {
@@ -490,18 +524,18 @@ button {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -20px;
-  margin-top: -20px;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .portfolio-list > .item {
-  border-bottom: 1px solid #eeeeee;
-  flex-basis: calc(100% / 3 - 20px);
-  margin-left: 20px;
-  margin-top: 20px;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .portfolio-element {
+  border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
