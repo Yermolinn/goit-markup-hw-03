@@ -12,6 +12,7 @@ html {
   --accent-btn-collor: #188ce8;
   --conteiner-bgc-collor: #eeeeee;
   --footer-bgc-collor: #2f303a;
+  --white-bgc-collor: #ffffff;
   --high-line-collor: #ececec;
 }
 
@@ -110,7 +111,7 @@ button {
 
 /* ------------------------------------------------Шапка------------------------------------------------ */
 .page-header {
-border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--high-line-collor);
 }
 
 .header-container {
@@ -207,6 +208,7 @@ border-bottom: 1px solid #eeeeee;
 /* ------------------------------------------------Підвал-сайту------------------------------------------------ */
 
 .footer {
+  padding: 60px 0;
   background-color: var(--footer-bgc-collor);
 }
 
@@ -215,9 +217,7 @@ border-bottom: 1px solid #eeeeee;
   padding-top: 60px;
   padding-bottom: 60px;
 } */
-.footer-list {
-  margin-top: 20px;
-}
+
 .footer-list a {
   color: var(--secondary-text-collor);
   text-decoration: none;
@@ -252,7 +252,6 @@ border-bottom: 1px solid #eeeeee;
 
 .footer-logo {
   margin-top: 60px;
-  
 
   text-decoration: none;
   font-family: 'Raleway';
@@ -315,7 +314,7 @@ border-bottom: 1px solid #eeeeee;
   align-items: center;
   align-self: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
 
   color: var(--white-text-collor);
 }
@@ -484,8 +483,9 @@ border-bottom: 1px solid #eeeeee;
 .team-list > .item {
   align-items: center;
   background-color: var(--white-text-collor);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list > .item:not(:first-child) {
@@ -493,8 +493,8 @@ border-bottom: 1px solid #eeeeee;
 }
 
 .team-list-element {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -540,6 +540,11 @@ border-bottom: 1px solid #eeeeee;
 .portfolio-element {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
+  border-top: none;
+}
+
+.portfolio-element h2 {
+  margin-bottom: 4px;
 }
 
 .portfolio-list .title {
